@@ -1,0 +1,16 @@
+C:\Users\axeljoh\source\repos\LanguageTranslator\LanguageTranslator\bin\Debug\net6.0-windows\LanguageTranslator.exe
+C:\Users\axeljoh\source\repos\LanguageTranslator\LanguageTranslator\bin\Debug\net6.0-windows\LanguageTranslator.deps.json
+C:\Users\axeljoh\source\repos\LanguageTranslator\LanguageTranslator\bin\Debug\net6.0-windows\LanguageTranslator.runtimeconfig.json
+C:\Users\axeljoh\source\repos\LanguageTranslator\LanguageTranslator\bin\Debug\net6.0-windows\LanguageTranslator.dll
+C:\Users\axeljoh\source\repos\LanguageTranslator\LanguageTranslator\bin\Debug\net6.0-windows\LanguageTranslator.pdb
+C:\Users\axeljoh\source\repos\LanguageTranslator\LanguageTranslator\obj\Debug\net6.0-windows\LanguageTranslator.Form1.resources
+C:\Users\axeljoh\source\repos\LanguageTranslator\LanguageTranslator\obj\Debug\net6.0-windows\LanguageTranslator.csproj.GenerateResource.cache
+C:\Users\axeljoh\source\repos\LanguageTranslator\LanguageTranslator\obj\Debug\net6.0-windows\LanguageTranslator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\axeljoh\source\repos\LanguageTranslator\LanguageTranslator\obj\Debug\net6.0-windows\LanguageTranslator.AssemblyInfoInputs.cache
+C:\Users\axeljoh\source\repos\LanguageTranslator\LanguageTranslator\obj\Debug\net6.0-windows\LanguageTranslator.AssemblyInfo.cs
+C:\Users\axeljoh\source\repos\LanguageTranslator\LanguageTranslator\obj\Debug\net6.0-windows\LanguageTranslator.csproj.CoreCompileInputs.cache
+C:\Users\axeljoh\source\repos\LanguageTranslator\LanguageTranslator\obj\Debug\net6.0-windows\LanguageTranslator.dll
+C:\Users\axeljoh\source\repos\LanguageTranslator\LanguageTranslator\obj\Debug\net6.0-windows\refint\LanguageTranslator.dll
+C:\Users\axeljoh\source\repos\LanguageTranslator\LanguageTranslator\obj\Debug\net6.0-windows\LanguageTranslator.pdb
+C:\Users\axeljoh\source\repos\LanguageTranslator\LanguageTranslator\obj\Debug\net6.0-windows\LanguageTranslator.genruntimeconfig.cache
+C:\Users\axeljoh\source\repos\LanguageTranslator\LanguageTranslator\obj\Debug\net6.0-windows\ref\LanguageTranslator.dll
