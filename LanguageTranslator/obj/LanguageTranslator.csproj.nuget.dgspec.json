@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\axeljoh\\source\\repos\\LanguageTranslator\\LanguageTranslator\\LanguageTranslator.csproj": {}
+    "C:\\Users\\axeljoh\\source\\repos\\LangTranslator\\LanguageTranslator\\LanguageTranslator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\axeljoh\\source\\repos\\LanguageTranslator\\LanguageTranslator\\LanguageTranslator.csproj": {
+    "C:\\Users\\axeljoh\\source\\repos\\LangTranslator\\LanguageTranslator\\LanguageTranslator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\axeljoh\\source\\repos\\LanguageTranslator\\LanguageTranslator\\LanguageTranslator.csproj",
+        "projectUniqueName": "C:\\Users\\axeljoh\\source\\repos\\LangTranslator\\LanguageTranslator\\LanguageTranslator.csproj",
         "projectName": "LanguageTranslator",
-        "projectPath": "C:\\Users\\axeljoh\\source\\repos\\LanguageTranslator\\LanguageTranslator\\LanguageTranslator.csproj",
+        "projectPath": "C:\\Users\\axeljoh\\source\\repos\\LangTranslator\\LanguageTranslator\\LanguageTranslator.csproj",
         "packagesPath": "C:\\Users\\axeljoh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\axeljoh\\source\\repos\\LanguageTranslator\\LanguageTranslator\\obj\\",
+        "outputPath": "C:\\Users\\axeljoh\\source\\repos\\LangTranslator\\LanguageTranslator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -5,34 +5,11 @@ namespace LanguageTranslator
 {
     public partial class Form1 : Form
     {
+        public Dictionary<string, string> lang = new Dictionary<String, String>();
+
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         private void exportBtn_Click(object sender, EventArgs e)
@@ -54,13 +31,9 @@ namespace LanguageTranslator
 
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
-                    //Get the path of specified file
                     filePath = openFileDialog.FileName;
 
-                    //Read the contents of the file into a stream
                     var fileStream = openFileDialog.OpenFile();
-
-                    Dictionary<string, string> lang = new Dictionary<String, String>();
 
                     using (StreamReader reader = new StreamReader(fileStream))
                     {
@@ -78,18 +51,20 @@ namespace LanguageTranslator
                         item.SubItems.Add(pair.Key);
                         item.SubItems.Add(pair.Value);
                         listView.Items.Add(item);
-                        if (listView.Items.Count > 0 && listView.SelectedItems.Count == 0) { listView.Items[listView.Items.Count - 1].EnsureVisible(); };
                     }
                 }
 
                 try
                 {
-                    listView.Select();
+
                     ListViewItem item = listView.SelectedItems[0];
                     keyLabel.Text = item.SubItems[1].Text;
                     currentLabel.Text = item.SubItems[2].Text;
                 }
                 catch { return; }
+                if (listView.Items.Count > 0 && listView.SelectedItems.Count == 0) { try { listView.SelectedItems[0].EnsureVisible(); } catch { } };
+                listView.Items[0].Selected = true;
+                listView.Select();
             }
 
 
@@ -113,5 +88,17 @@ namespace LanguageTranslator
             }
             catch { return; }
         }
+
+        private void setBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+
     }
 }

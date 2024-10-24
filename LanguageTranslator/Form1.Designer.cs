@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             splitContainer1 = new SplitContainer();
+            setBtn = new Button();
             keyLabel = new Label();
             currentLabel = new Label();
             textBox1 = new TextBox();
@@ -58,6 +59,7 @@
             // 
             // splitContainer1.Panel1
             // 
+            splitContainer1.Panel1.Controls.Add(setBtn);
             splitContainer1.Panel1.Controls.Add(keyLabel);
             splitContainer1.Panel1.Controls.Add(currentLabel);
             splitContainer1.Panel1.Controls.Add(textBox1);
@@ -66,7 +68,6 @@
             splitContainer1.Panel1.Controls.Add(prevBtn);
             splitContainer1.Panel1.Controls.Add(nextBtn);
             splitContainer1.Panel1.Controls.Add(label1);
-            splitContainer1.Panel1.Paint += splitContainer1_Panel1_Paint;
             // 
             // splitContainer1.Panel2
             // 
@@ -77,6 +78,16 @@
             splitContainer1.Size = new Size(712, 597);
             splitContainer1.SplitterDistance = 293;
             splitContainer1.TabIndex = 0;
+            // 
+            // setBtn
+            // 
+            setBtn.Location = new Point(245, 80);
+            setBtn.Name = "setBtn";
+            setBtn.Size = new Size(33, 24);
+            setBtn.TabIndex = 16;
+            setBtn.Text = "set";
+            setBtn.UseVisualStyleBackColor = true;
+            setBtn.Click += setBtn_Click;
             // 
             // keyLabel
             // 
@@ -98,8 +109,9 @@
             // 
             textBox1.Location = new Point(56, 80);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(222, 23);
+            textBox1.Size = new Size(183, 23);
             textBox1.TabIndex = 13;
+            textBox1.Enter += textBox1_Enter;
             // 
             // label3
             // 
@@ -212,7 +224,6 @@
             Controls.Add(splitContainer1);
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load;
             splitContainer1.Panel1.ResumeLayout(false);
             splitContainer1.Panel1.PerformLayout();
             splitContainer1.Panel2.ResumeLayout(false);
@@ -240,5 +251,6 @@
         private ColumnHeader Key;
         private ColumnHeader Value;
         private ColumnHeader No;
+        private Button setBtn;
     }
 }
